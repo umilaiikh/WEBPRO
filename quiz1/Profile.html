@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Profile - Umi Lailatul Khotimah</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@600;700&display=swap');
+            .font-bebas {
+                font-family: 'Bebas Neue', sans-serif;
+            }
+            .font-montserrat {
+                font-family: 'Montserrat', sans-serif;
+            }
+        </style>
+    </head>
+    <body class="bg-[#e0f2fc] min-h-screen flex flex-col relative">
+       <header class="absolute top-9 left-1/2 transform -translate-x-1/2 flex gap-14 z-10">
+            <a href="index.html" class="font-montserrat font-bold text-[#1e1e1e] text-[22px] hover:opacity-80 transition-opacity whitespace-nowrap">Homepage</a>
+            <a href="Profile.html" class="font-montserrat font-bold text-[#1e1e1e] text-[22px] hover:opacity-80 transition-opacity whitespace-nowrap">Profile</a>
+            <a href="Hometown.html" class="font-montserrat font-bold text-[#1e1e1e] text-[22px] hover:opacity-80 transition-opacity whitespace-nowrap">Hometown</a>
+            <a href="Food.html" class="font-montserrat font-bold text-[#1e1e1e] text-[22px] hover:opacity-80 transition-opacity whitespace-nowrap">Local Food</a>
+            <a href="Tourist.html" class="font-montserrat font-bold text-[#1e1e1e] text-[22px] hover:opacity-80 transition-opacity whitespace-nowrap">Tourist Places</a>
+        </header>
+
+        <section class="relative flex-1 flex items-center justify-center py-20" aria-labelledby="about-heading">
+            <div class="relative mx-auto max-w-[1287px] w-full aspect-[1287/485] rounded-lg overflow-hidden shadow-lg">
+                <img
+                    class="absolute inset-0 w-full h-full object-cover"
+                    src="./assets/profile.png"
+                    alt="Photo Profile"
+                />
+                <div class="absolute inset-0 bg-gradient-to-r from-[#4fc7ff] to-[#1e1e1e80]"></div>
+                <h1
+                    id="about-heading"
+                    class="absolute left-20 top-1/2 -translate-y-1/2 w-[325px] flex items-center justify-center font-bebas font-normal text-[#1e1e1e] 
+                        text-4xl md:text-[130.5px] leading-tight md:leading-[117.4px] z-10 lg:ml-12 lg:pl-6 max-w-[500px]"
+                >
+                    about me
+                </h1>
+            </div>
+        </section>
+
+        <section class="py-8 px-4 -mt-8 md:-mt-12">
+            <div class="mx-auto max-w-[1188px] flex items-center justify-center">
+                <p class="font-montserrat font-medium text-black text-2xl text-center leading-[30.2px] px-8">
+                    Hello! Let me introduce myself. I'm Umi Lailatul Khotimah, an
+                    Undergraduate of <span class="font-semibold text-[#0123da]">Informatics Engineering</span>
+                    student at the Institut Teknologi Sepuluh Nopember with a deep interest in
+                    <span class="font-semibold text-[#0123da]">technology</span> and
+                    <span class="font-semibold text-[#0123da]">design</span>. I'm currently a member of the Banyubramanta Research Team in the
+                    Creative & Branding division, where I contribute to developing technology-based creative solutions.
+                    Besides programming, I have a strong passion for <span class="font-semibold text-[#0123da]">photography</span>
+                    and <span class="font-semibold text-[#0123da]">nature exploration</span>.
+                    My hobby is spontaneously photographing moments, capturing beauty from unique perspectives. My experience as a member of the
+                    Nature Lovers organization in high school has shaped my character, which embraces adventure and a deep appreciation for natural beauty.
+                    My academic journey has been quite interesting - initially, I was interested in studying forestry at Brawijaya University, but ultimately chose Informatics at ITS.
+                    Despite this, my love for nature remains strong to this day. In my free time, I often spend time exploring the beauty of nature while capturing
+                    precious moments through my camera lens.
+                </p>
+            </div>
+        </section>
+
+        <footer class="bg-[#00aeff] py-8 md:py-12 w-full flex-shrink-0">
+            <div class="max-w-[1440px] mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
+                <h2 class="font-montserrat font-semibold text-black text-2xl md:text-[45px] leading-tight whitespace-nowrap order-2 md:order-1">
+                    Umi Lailatul Khotimah
+                </h2>
+                <div class="flex gap-2 items-center" role="list" aria-label="Social media links">
+                    <a href="#" class="hover:opacity-80 transition-opacity duration-200" aria-label="Visit Email profile" role="listitem">
+                        <img class="w-[61.19px] h-[45.9px]" alt="Email" src="./assets/Email.png" />
+                    </a>
+                    <a href="#" class="hover:opacity-80 transition-opacity duration-200" aria-label="Visit LinkedIn profile" role="listitem">
+                        <img class="w-[53.55px] h-[53.55px]" alt="LinkedIn" src="./assets/Linkedin.png" />
+                    </a>
+                    <a href="#" class="hover:opacity-80 transition-opacity duration-200" aria-label="Visit WhatsApp profile" role="listitem">
+                        <img class="w-[53.55px] h-[53.55px]" alt="WhatsApp" src="./assets/Whatsapp.png" />
+                    </a>
+                    <a href="#" class="hover:opacity-80 transition-opacity duration-200" aria-label="Visit Instagram profile" role="listitem">
+                        <img class="w-[53.58px] h-[53.56px]" alt="Instagram" src="./assets/Instagram.png" />
+                    </a>
+                    <a href="#" class="hover:opacity-80 transition-opacity duration-200" aria-label="Visit GitHub profile" role="listitem">
+                        <img class="w-[59.28px] h-[57.8px]" alt="GitHub" src="./assets/Github.png" />
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

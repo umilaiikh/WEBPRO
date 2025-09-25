@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hometown - Umi Lailatul Khotimah</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500;600;700&display=swap');
+            .font-bebas {
+                font-family: 'Bebas Neue', sans-serif;
+            }
+            .font-montserrat {
+                font-family: 'Montserrat', sans-serif;
+            }
+        </style>
+    </head>
+    <body class="bg-[#e0f2fc] min-h-screen flex flex-col relative">
+        <header class="absolute top-9 left-1/2 transform -translate-x-1/2 flex gap-14 z-10">
+            <a href="index.html" class="font-montserrat font-bold text-[#1e1e1e] text-[22px] hover:opacity-80 transition-opacity whitespace-nowrap">Homepage</a>
+            <a href="Profile.html" class="font-montserrat font-bold text-[#1e1e1e] text-[22px] hover:opacity-80 transition-opacity whitespace-nowrap">Profile</a>
+            <a href="Hometown.html" class="font-montserrat font-bold text-[#1e1e1e] text-[22px] hover:opacity-80 transition-opacity whitespace-nowrap">Hometown</a>
+            <a href="Food.html" class="font-montserrat font-bold text-[#1e1e1e] text-[22px] hover:opacity-80 transition-opacity whitespace-nowrap">Local Food</a>
+            <a href="Tourist.html" class="font-montserrat font-bold text-[#1e1e1e] text-[22px] hover:opacity-80 transition-opacity whitespace-nowrap">Tourist Places</a>
+        </header>
+
+        <section class="relative flex-1 flex items-center justify-center py-20" aria-labelledby="about-heading">
+            <div class="relative mx-auto max-w-[1287px] w-full aspect-[1287/485] rounded-lg overflow-hidden shadow-lg">
+                <img
+                    class="absolute inset-0 w-full h-full object-cover"
+                    src="./assets/gwd.png"
+                    alt="Photo Hometown"
+                />
+                <div class="absolute inset-0 bg-gradient-to-r from-[#4fc7ff] to-[#1e1e1e80]"></div>
+                <h1
+                    id="about-heading"
+                    class="absolute left-20 top-1/2 -translate-y-1/2 w-[325px] flex items-center justify-center font-bebas font-normal text-[#1e1e1e] 
+                        text-4xl md:text-[130.5px] leading-tight md:leading-[117.4px] z-10 lg:ml-12 lg:pl-6 max-w-[500px]"
+                >
+                    welcome to my hometown
+                </h1>
+            </div>
+        </section>
+
+        <section class="flex flex-col lg:flex-row gap-8 md:gap-12 mt-10 md:mt-20">
+            <div class="w-full lg:w-[626px] order-2 lg:order-1 flex flex-col items-start gap-6 -mt-6 md:-mt-10 lg:ml-8 lg:pl-4">
+                <h2 class="font-bebas font-normal text-[#1e1e1e] text-5xl md:text-[63px] leading-tight tracking-normal">
+                    kembiritan village profile
+                </h2>
+                <p class="font-montserrat font-medium text-black text-xl md:text-2xl leading-[28px] md:leading-[28.8px] text-left">
+                    Kembiritan Village is located in Genteng District, Banyuwangi Regency. It covers an area of ~15.16 square kilometers.
+                    It is the largest village in Genteng District and still overlaps with the Genteng urban area. <br><br>
+                    This village boasts several unique cultural traditions, including a celebration of the Prophet Muhammad's birthday.
+                    A massive celebration is held during the celebration of the Prophet Muhammad's birthday. This celebration involves riding pedicabs decorated with
+                    banana trees and numerous eggs. The eggs are carried around the village, followed by the local community.
+                </p>
+            </div>
+            <div class="w-full lg:w-[543px] order-1 lg:order-2 flex justify-center lg:justify-end">
+                <img
+                    class="w-full max-w-[543px] h-[400px] md:h-[441px] object-cover rounded-lg shadow-md"
+                    src="assets/desa.png"
+                    alt="Photo Village"
+                />
+            </div>
+            </section>
+
+        <section class="mt-6 md:mt-10 lg:mt-10 flex flex-col items-center gap-8 pb-8 md:pb-12 lg:pb-20">
+            <h2 class="m-0 font-bebas font-normal text-[#1e1e1e] text-5xl md:text-[63px] leading-tight text-center">
+                banyuwangi regency
+            </h2>
+            <p class="w-full max-w-[1192px] font-montserrat font-medium text-black text-xl md:text-2xl text-center leading-[28px] md:leading-[28.8px] px-4 md:px-0">
+                Banyuwangi Regency (Hanacaraka: ꦧꦚꦮꦔ, Pegon: باۑوواڠي; Indonesian pronunciation: [baɲuˈwaŋi]) is a regency in the province of East Java,
+                Indonesia. The regency's capital is Banyuwangi District. The regency is located at the easternmost tip of the Indonesian island of Java,
+                specifically in the Tapal Kuda area, bordering Situbondo Regency and Bondowoso Regency to the north, the Bali Strait and Bali Province to the east,
+                the Indian Ocean to the south, and Jember Regency and Bondowoso Regency to the west. Banyuwangi Regency is the largest regency in East Java and the
+                third largest regency on the island of Java. <br><br>
+                On the coast of Banyuwangi, Ketapang Port is located, which serves as the main link between Java and Bali. The people who live in this area are the
+                Osing or Wong Blambangan tribe, a Javanese sub-tribe heavily influenced by the Balinese people. The word Osing itself comes from the Balinese word
+                tusing, which means "not." In mid-2023, the population of Banyuwangi was 1,769,234.
+                </p>
+        </section>
+
+        <footer class="bg-[#00aeff] py-8 md:py-12 w-full flex-shrink-0">
+            <div class="max-w-[1440px] mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
+                <h2 class="font-montserrat font-semibold text-black text-2xl md:text-[45px] leading-tight whitespace-nowrap order-2 md:order-1">
+                    Umi Lailatul Khotimah
+                </h2>
+                <div class="flex gap-2 items-center" role="list" aria-label="Social media links">
+                    <a href="#" class="hover:opacity-80 transition-opacity duration-200" aria-label="Visit Email profile" role="listitem">
+                        <img class="w-[61.19px] h-[45.9px]" alt="Email" src="./assets/Email.png" />
+                    </a>
+                    <a href="#" class="hover:opacity-80 transition-opacity duration-200" aria-label="Visit LinkedIn profile" role="listitem">
+                        <img class="w-[53.55px] h-[53.55px]" alt="LinkedIn" src="./assets/Linkedin.png" />
+                    </a>
+                    <a href="#" class="hover:opacity-80 transition-opacity duration-200" aria-label="Visit WhatsApp profile" role="listitem">
+                        <img class="w-[53.55px] h-[53.55px]" alt="WhatsApp" src="./assets/Whatsapp.png" />
+                    </a>
+                    <a href="#" class="hover:opacity-80 transition-opacity duration-200" aria-label="Visit Instagram profile" role="listitem">
+                        <img class="w-[53.58px] h-[53.56px]" alt="Instagram" src="./assets/Instagram.png" />
+                    </a>
+                    <a href="#" class="hover:opacity-80 transition-opacity duration-200" aria-label="Visit GitHub profile" role="listitem">
+                        <img class="w-[59.28px] h-[57.8px]" alt="GitHub" src="./assets/Github.png" />
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
